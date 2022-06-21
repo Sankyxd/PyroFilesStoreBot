@@ -30,11 +30,11 @@ Send me any file I will save it in my Database. Also works for channel. Add me t
 
 📡 **Hosted on:** [Heroku](https://heroku.com)
 
-🧑🏻‍💻 **Developer:** @AbirHasan2005
+🧑🏻‍💻 **Developer:** @SD4UZ
 
-👥 **Support:** [Telegram Channel](https://t.me/CJR_OFFICIAL)
+👥 **Support:** [📢 Telegram Channel 📢](https://t.me/CJR_OFFICIAL)
 
-📢 **Updates Channel:** [Discovery Projects](https://t.me/+ME3VIAyvhIRhODYx)
+📢 **Updates Channel:** [👆 CLIC HERE 👆](https://t.me/+ME3VIAyvhIRhODYx)
 """
 	ABOUT_DEV_TEXT = f"""
 🧑🏻‍💻 **Developer:** @SD4UZ
@@ -44,5 +44,5 @@ Developer is Super Noob. Just Learning from Official Docs. Please Support the de
 	HOME_TEXT = """
 **Hey👋**, [{}](tg://user?id={})\n\n**This is Permanent** **CJR File Store Bot**.
 
-**Check My Information. Also! Check **About Bot** Button**.😉
+**Check My Information. Also! Check **About Bot Button**.😉
 """
