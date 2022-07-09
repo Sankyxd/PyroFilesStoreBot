@@ -21,27 +21,27 @@ class Config(object):
 	ABOUT_BOT_TEXT = f"""
 **This is Permanent Files Store Bot!**
 
-🤖 **My Name:** [Files Store Bot](https://t.me/{BOT_USERNAME})
+🤖 **ᴍʏ ɴᴀᴍᴇ:** [Files Store Bot](https://t.me/{BOT_USERNAME})
 
-📝 **Language:** [Python3](https://www.python.org)
+📝 **ʟᴀɴɢᴜᴀɢᴇ:** [Python3](https://www.python.org)
 
-📚 **Library:** [Pyrogram](https://docs.pyrogram.org)
+📚 **ʟɪʙʀᴀʀʏ:** [Pyrogram](https://docs.pyrogram.org)
 
-📡 **Hosted on:** [Heroku](https://heroku.com)
+📡 **ʜᴏꜱᴛᴇᴅ ᴏɴ:** [Heroku](https://heroku.com)
 
-🧑🏻‍💻 **Developer:** @SD4UZ
+🧑🏻‍💻 **ᴅᴇᴠᴇʟᴏᴘᴇʀ:** @SD4UZ
 
-👥 **Support:** [📢 Telegram Channel 📢](https://t.me/CJR_OFFICIAL)
+👥 **ꜱᴜᴘᴘᴏʀᴛ:** [📢 Telegram Channel 📢](https://t.me/CJR_OFFICIAL)
 
-📢 **Updates Channel:** [👆 CLIC HERE 👆](https://t.me/+ME3VIAyvhIRhODYx)
+📢 **ᴜᴘᴅᴀᴛᴇꜱ:** [👆 CLIC HERE 👆](https://t.me/+ME3VIAyvhIRhODYx)
 """
 	ABOUT_DEV_TEXT = f"""
-🧑🏻‍💻 **Developer:** @SD4UZ
+🧑🏻‍💻 **ᴅᴇᴠᴇʟᴏᴘᴇʀ:** @SD4UZ
 
-Developer is Super Noob. Just Learning from Official Docs. Please Support the developer for Keeping the Service Alive.
+**𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛 𝚒𝚜 𝚂𝚞𝚙𝚎𝚛 𝙽𝚘𝚘𝚋. 𝙹𝚞𝚜𝚝 𝙻𝚎𝚊𝚛𝚗𝚒𝚗𝚐 𝚏𝚛𝚘𝚖 𝙾𝚏𝚏𝚒𝚌𝚒𝚊𝚕 𝙳𝚘𝚌𝚜. 𝙿𝚕𝚎𝚊𝚜𝚎 𝚂𝚞𝚙𝚙𝚘𝚛𝚝 𝚝𝚑𝚎 𝚍𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛 𝚏𝚘𝚛 𝙺𝚎𝚎𝚙𝚒𝚗𝚐 𝚝𝚑𝚎 𝚂𝚎𝚛𝚟𝚒𝚌𝚎 𝙰𝚕𝚒𝚟𝚎.**
 """
 	HOME_TEXT = """
-**Hey👋**, [{}](tg://user?id={})\n\n**This is Permanent** **CJR File Store Bot**.
+**𝐇𝐞𝐲👋**, [{}](tg://user?id={})\n\n**𝐓𝐡𝐢𝐬 𝐢𝐬 𝐏𝐞𝐫𝐦𝐚𝐧𝐞𝐧𝐭** 𝐂𝐉𝐑 𝐅𝐢𝐥𝐞 𝐒𝐭𝐨𝐫𝐞 𝐁𝐨𝐭**.
 
-**Check My Information. Also! Check **About Bot Button**.😉
+**𝐂𝐡𝐞𝐜𝐤 𝐌𝐲 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧. 𝐀𝐥𝐬𝐨! 𝐂𝐡𝐞𝐜𝐤 **𝐀𝐛𝐨𝐮𝐭 𝐁𝐨𝐭 𝐁𝐮𝐭𝐭𝐨𝐧**.😉
 """
