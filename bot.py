@@ -73,12 +73,12 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("♻️ Group ♻️", url="https://t.me/CholochitrerJogotReq"),
-                        InlineKeyboardButton("📢 Updates Channel 📢", url="https://t.me/CJR_OFFICIAL")
+                        InlineKeyboardButton("ɢʀᴏᴜᴘ", url="https://t.me/CholochitrerJogotReq"),
+                        InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇꜱ", url="https://t.me/CJR_OFFICIAL")
                     ],
                     [
-                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                        InlineKeyboardButton("About Dev", callback_data="aboutdevs")
+                        InlineKeyboardButton("ᴀʙᴏᴜᴛ ʙᴏᴛ", callback_data="aboutbot"),
+                        InlineKeyboardButton("ᴀʙᴏᴜᴛ ᴅᴇᴠ", callback_data="aboutdevs")
                     ]
                 ]
             )
@@ -120,7 +120,7 @@ async def main(bot: Client, message: Message):
                 return
 
         if message.from_user.id in Config.BANNED_USERS:
-            await message.reply_text("Sorry, You are banned!\n\nContact [♻️ Group ♻️](https://t.me/CholochitrerJogotReq)",
+            await message.reply_text("Sorry, You are banned!\n\nContact [ɢʀᴏᴜᴘ](https://t.me/CholochitrerJogotReq)",
                                      disable_web_page_preview=True)
             return
 
@@ -318,12 +318,12 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Source Codes of Bot",
+                        InlineKeyboardButton("ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇꜱ ᴏꜰ ʙᴏᴛ",
                                              url="https://t.me/CJR_OFFICIAL")
                     ],
                     [
-                        InlineKeyboardButton("Go Home", callback_data="gotohome"),
-                        InlineKeyboardButton("About Dev", callback_data="aboutdevs")
+                        InlineKeyboardButton("ɢᴏ ʜᴏᴍᴇ", callback_data="gotohome"),
+                        InlineKeyboardButton("ᴀʙᴏᴜᴛ ᴅᴇᴠ", callback_data="aboutdevs")
                     ]
                 ]
             )
@@ -337,12 +337,12 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Source Codes of Bot",
+                        InlineKeyboardButton("ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇꜱ ᴏꜰ ʙᴏᴛ",
                                              url="https://t.me/CJR_OFFICIAL")
                     ],
                     [
-                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                        InlineKeyboardButton("Go Home", callback_data="gotohome")
+                        InlineKeyboardButton("ᴀʙᴏᴜᴛ ʙᴏᴛ", callback_data="aboutbot"),
+                        InlineKeyboardButton("ɢᴏ ʜᴏᴍᴇ", callback_data="gotohome")
                     ]
                 ]
             )
@@ -356,12 +356,12 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("♻️ Group ♻️", url="https://t.me/CholochitrerJogotReq"),
-                        InlineKeyboardButton("📢 Updates Channel 📢", url="https://t.me/CJR_OFFICIAL")
+                        InlineKeyboardButton("ɢʀᴏᴜᴘ", url="https://t.me/CholochitrerJogotReq"),
+                        InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇꜱ", url="https://t.me/CJR_OFFICIAL")
                     ],
                     [
-                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                        InlineKeyboardButton("About Dev", callback_data="aboutdevs")
+                        InlineKeyboardButton("ᴀʙᴏᴜᴛ ʙᴏᴛ", callback_data="aboutbot"),
+                        InlineKeyboardButton("ᴀʙᴏᴜᴛ ᴅᴇᴠ", callback_data="aboutdevs")
                     ]
                 ]
             )
@@ -377,7 +377,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 user = await bot.get_chat_member(channel_chat_id, cmd.message.chat.id)
                 if user.status == "kicked":
                     await cmd.message.edit(
-                        text="Sorry Sir, You are Banned to use me. Contact my [♻️ Group ♻️](https://t.me/CholochitrerJogotReq).",
+                        text="𝚂𝚘𝚛𝚛𝚢 𝚂𝚒𝚛, 𝚈𝚘𝚞 𝚊𝚛𝚎 𝙱𝚊𝚗𝚗𝚎𝚍 𝚝𝚘 𝚞𝚜𝚎 𝚖𝚎. 𝙲𝚘𝚗𝚝𝚊𝚌𝚝 𝚖𝚢 [ɢʀᴏᴜᴘ](https://t.me/CholochitrerJogotReq).",
                         parse_mode="markdown",
                         disable_web_page_preview=True
                     )
@@ -402,7 +402,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 return
             except Exception:
                 await cmd.message.edit(
-                    text="Something went Wrong. Contact my [♻️ Group ♻️](https://t.me/CholochitrerJogotReq).",
+                    text="𝚂𝚘𝚖𝚎𝚝𝚑𝚒𝚗𝚐 𝚠𝚎𝚗𝚝 𝚆𝚛𝚘𝚗𝚐. 𝙲𝚘𝚗𝚝𝚊𝚌𝚝 𝚖𝚢 [ɢʀᴏᴜᴘ](https://t.me/CholochitrerJogotReq).",
                     parse_mode="markdown",
                     disable_web_page_preview=True
                 )
@@ -414,12 +414,12 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("♻️ Group ♻️", url="https://t.me/CholochitrerJogotReq"),
-                        InlineKeyboardButton("📢 Updates Channel 📢", url="https://t.me/CJR_OFFICIAL")
+                        InlineKeyboardButton("ɢʀᴏᴜᴘ", url="https://t.me/CholochitrerJogotReq"),
+                        InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇꜱ", url="https://t.me/CJR_OFFICIAL")
                     ],
                     [
-                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                        InlineKeyboardButton("About Dev", callback_data="aboutdevs")
+                        InlineKeyboardButton("ᴀʙᴏᴜᴛ ʙᴏᴛ", callback_data="aboutbot"),
+                        InlineKeyboardButton("ᴀʙᴏᴜᴛ ᴅᴇᴠ", callback_data="aboutdevs")
                     ]
                 ]
             )
@@ -447,8 +447,8 @@ async def button(bot: Client, cmd: CallbackQuery):
         await cmd.message.edit("File Saved in Batch!\n\n"
                                "Press below button to get batch link.",
                                reply_markup=InlineKeyboardMarkup([
-                                   [InlineKeyboardButton("Get Batch Link", callback_data="getBatchLink")],
-                                   [InlineKeyboardButton("Close Message", callback_data="closeMessage")]
+                                   [InlineKeyboardButton("ɢᴇᴛ ʙᴀᴛᴄʜ ʟɪɴᴋ", callback_data="getBatchLink")],
+                                   [InlineKeyboardButton("ᴄʟᴏꜱᴇ ᴍᴇꜱꜱᴀɢᴇ", callback_data="closeMessage")]
                                ]))
 
     elif "addToBatchFalse" in cb_data:
